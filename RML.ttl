@@ -6,6 +6,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
 <#MovieMapping>
+	 a rr:TriplesMap;
+	 
 	rml:logicalSource [
 		rml:source 	"http://www.example.com/movies.xml" ;
 		rml:iterator 	"/movielist/movie";
