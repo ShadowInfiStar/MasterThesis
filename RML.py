@@ -13,6 +13,7 @@ class RML:
                 pprint.pprint(stmt)
     def createGraph(self):
         self.graph.parse("C:\\Users\\Birte\\Documents\\GitHub\\rml-test-cases\\test-cases\\RMLTC0000-CSV\\mapping.ttl", format="turtle")
+        #self.graph.parse("C:\\Users\\Birte\\Documents\\GitHub\\rml-test-cases\\test-cases\\RMLTC0002a-CSV\\mapping.ttl", format="turtle")
     def removeBlankNodes(self):
         for s,p,o in self.graph:
             for s2,p2,o2 in self.graph:
